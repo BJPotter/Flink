@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e93f5fb-f8d9-4c6a-a334-3c524b03d81f" name="Default Changelist" comment="" />
+    <list default="true" id="9e93f5fb-f8d9-4c6a-a334-3c524b03d81f" name="Default Changelist" comment="ignore print()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vasoyn/FlinkSourceKafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vasoyn/FlinkSourceKafka.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,12 +91,35 @@
       <workItem from="1699882869765" duration="429000" />
       <workItem from="1699883416744" duration="6594000" />
       <workItem from="1699890449658" duration="60000" />
-      <workItem from="1699967517517" duration="2793000" />
+      <workItem from="1699967517517" duration="3817000" />
     </task>
+    <task id="LOCAL-00001" summary="ignore print()">
+      <created>1699972567553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699972567553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ignore print()" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore print()" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
