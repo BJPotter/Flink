@@ -11,6 +11,9 @@ import org.apache.kafka.clients.consumer.ConsumerConfig;
 
 import java.util.Properties;
 
+/**
+ * flink 读取kafka数据
+ */
 public class FlinkSourceKafka {
     public static void main(String[] args) throws Exception {
         //1.获取执行环境
@@ -30,10 +33,8 @@ public class FlinkSourceKafka {
 
         //4.按照DataStream<Tuple2<String,Integer>>，读取topic中的数据
         DataStream<Tuple2<String,Integer>> dataStream = env.addSource(kafkaConsumer);
-        System.out.println(dataStream.print());
-        //5.按照topic分流进行业务逻辑处理
-        //dataStream
-         //.keyBy(value -> value.f0).process();
+
+        dataStream.print();
 
         //执行作业
         env.execute("Flink Kafka Source Example");
