@@ -34,7 +34,7 @@ public class FlinkSourceKafka {
         //4.按照DataStream<Tuple2<String,Integer>>，读取topic中的数据
         DataStream<Tuple2<String,Integer>> dataStream = env.addSource(kafkaConsumer);
 
-        dataStream.print();
+        System.out.println(dataStream.print());
 
         //执行作业
         env.execute("Flink Kafka Source Example");
